@@ -151,7 +151,7 @@ void Game::updateBall()
 
 void Game::drawWalls()
 {
-    for (int j = 10; j < 20; j++)
+    for (int j = 0; j < 20; j++)
     {
         for (int i = 0; i < gfx.ScreenWidth; i++)
         {
@@ -159,7 +159,7 @@ void Game::drawWalls()
         }
     }
 
-    for (int j = 11; j < 21; j++)
+    for (int j = 1; j < 21; j++)
     {
         for (int i = 0; i < gfx.ScreenWidth; i++)
         {

@@ -48,7 +48,6 @@ public:
 		return score;
 	}
 
-
 	void draw(Graphics& gfx);
 
 private:

@@ -8,12 +8,16 @@ void Paddle::draw(Graphics& gfx)
     {
         for (int j = 0; j < height; j++)
         {
-            gfx.PutPixel(xPos + i, yPos + j, Colors::White);
+            gfx.PutPixel(xPos + i, yPos + j, Colors::Gray);
         }
     }
 
     //draw score
     if (player)
+    {
+
+    }
+    else
     {
 
     }
